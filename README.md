@@ -1,6 +1,5 @@
-![Alt text](http://sc.synopticlabs.net/images/mw-sl-logo.png)
-## Spring 2016 MesoWest/SynopticLabs API Workshop
-#### University of Utah, Marriott Library, Room 1745, 10am to 12pm
+### Spring 2016 MesoWest/SynopticLabs API Workshop
+##### University of Utah, Marriott Library, Room 1745, 10am to 12pm
 
 Hi! Thanks for signing up for our workshop! After this two hour tutorial, you'll be able to efficiently use the [MesoWest/SynopticLabs MesoNet Application Programming Interface] (API) to obtain millions of weather observations from over 43,000 observing stations across North America. Use this data to drive your applications, research, or student activities.
 
