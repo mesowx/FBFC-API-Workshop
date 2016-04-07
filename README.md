@@ -27,12 +27,13 @@ We'll update the schedule with links to slides after the workshop.
 | 0950-1010 | Web Resources and the Explorer                                                                                                                         |               |
 | 1010-1030 | Response Formats and Output Types                                                                                                                      |               |
 | 1030-1040 | Break                                                                                                                                                  |               |
-| 1040-1050 | Ex. 1 Creating simple charts of station data | [Ex.1] |
-| 1050-1105 | Ex. 2 Map creation for conditions near fire  | [Ex.2] |
-| 1105-1120 | Ex. 3 An email alert bot for changing fire weather conditions | [Ex.3] |
+| 1040-1050 | Ex. 1 Creating simple charts of station data | [Charts Example] |
+| 1050-1105 | Ex. 2 Map creation for conditions near fire  | [Map Example] |
+| 1105-1120 | Ex. 3 An email alert bot for changing fire weather conditions | [Alert Bot] |
 | 1120-1135 | Exercise                                                                                                                                               |               |
 | 1135-1145 | Break                                                                                                                                                  |               |
-| 1145-1220 | Ex. 4 Mini-ROMAN: A web-based tabular display of RAWS stations Ex. 5 Mapping precip data across the US                                                 |               |
+| 1145-1205 | Ex. 4 Mini-ROMAN: A web-based tabular display of RAWS stations | |
+| 1205-1220 | Ex. 5 Mapping precip data across the US                                                 |               |
 | 1220-1230 | Conclusions                                                                                                                                            |               |
 
 
@@ -40,6 +41,6 @@ We'll update the schedule with links to slides after the workshop.
 [signing up]: http://portland.firebehaviorandfuelsconference.com/register/
 [MesoWest/SynopticLabs MesoNet Application Programming Interface]: http://synopticlabs.org/api/
 [here]: http://synopticlabs.org/api/signup/
-[Ex.1]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex1_Basic_charts.ipynb
-[Ex.2]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex2_Fire_weather_map.ipynb
-[Ex.3]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex3_Email_alerts.ipynb
+[Chart Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex1_Basic_charts.ipynb
+[Map Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex2_Fire_weather_map.ipynb
+[Alert Bot]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex3_Email_alerts.ipynb
