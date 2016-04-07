@@ -27,7 +27,9 @@ We'll update the schedule with links to slides after the workshop.
 | 0950-1010 | Web Resources and the Explorer                                                                                                                         |               |
 | 1010-1030 | Response Formats and Output Types                                                                                                                      |               |
 | 1030-1040 | Break                                                                                                                                                  |               |
-| 1040-1120 | Ex. 1 Creating simple charts of station data Ex. 2 Map creation for conditions near fire Ex. 3 An email alert bot for changing fire weather conditions |  [Ex.1], [Ex.2], [Ex.3]             |
+| 1040-1050 | Ex. 1 Creating simple charts of station data | [Ex.1] |
+| 1050-1105 | Ex. 2 Map creation for conditions near fire  | [Ex.2] |
+| 1105-1120 | Ex. 3 An email alert bot for changing fire weather conditions | [Ex.3] |
 | 1120-1135 | Exercise                                                                                                                                               |               |
 | 1135-1145 | Break                                                                                                                                                  |               |
 | 1145-1220 | Ex. 4 Mini-ROMAN: A web-based tabular display of RAWS stations Ex. 5 Mapping precip data across the US                                                 |               |
