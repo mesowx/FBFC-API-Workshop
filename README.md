@@ -41,6 +41,6 @@ We'll update the schedule with links to slides after the workshop.
 [signing up]: http://portland.firebehaviorandfuelsconference.com/register/
 [MesoWest/SynopticLabs MesoNet Application Programming Interface]: http://synopticlabs.org/api/
 [here]: http://synopticlabs.org/api/signup/
-[Chart Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex1_Basic_charts.ipynb
+[Charts Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex1_Basic_charts.ipynb
 [Map Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex2_Fire_weather_map.ipynb
 [Alert Bot]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex3_Email_alerts.ipynb
