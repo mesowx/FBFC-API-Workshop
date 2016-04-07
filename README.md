@@ -1,7 +1,6 @@
 ### FBFC MesoWest/SynopticLabs API Workshop
 ##### April 11th, 8:30am - 12:30pm 
 ##### Oregon Convention Center Room E147
-##### Amenities: Wireless internet, electrical outlets
 
 Hi! Thanks for [signing up] for our workshop and the 5th Fire Behavior and Fuels Conference! After this four hour tutorial, you'll be able to efficiently use the [MesoWest/SynopticLabs MesoNet Application Programming Interface] (API) to obtain millions of weather observations from over 43,000 observing stations across North America. Use this data to drive your applications, research, or student activities!
 
