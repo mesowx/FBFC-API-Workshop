@@ -14,16 +14,61 @@ All of our examples, schedule, and instructions can be found here, on Github at 
 
 In order to get the most out of this course, we've tried to use modern libraries and teaching solutions. This course requires your computer to have the following installed:
 
-*Python 3.4/3.5
-*A web browser
-*The following python libraries: IPython, CartoPy, and their dependencies. All other libraries should be built-in to your python installation
+* Python 3.4/3.5
+* A web browser
+* The following python libraries: IPython, CartoPy, Bokeh, Matplotlib and their dependencies. All other libraries should be built-in to your python installation
+
 
 The best way to satisfy the course requirements is to install the Anaconda package/environment manager at https://www.continuum.io/downloads.
 
+### Anaconda (aka Conda) Python Installation on Windows
+
+We are going to use the Anaconda python suite for today's workshop, and we are going to use the Python3.5 version of that suite. If you have 2.7, that is great, but some of the functions we are going to use don't exist in Python 2.7. For windows, installing the 3.5 anaconda is as simple as:
+
+1. Visit https://www.continuum.io/downloads
+2. Download the Python 3.5 Anaconda Graphical installer (you will need >360mb of free disk space for this)
+3. Open the installer, and install (just for you unless you are an admin), mostly just click next.
+
+
+#### To use this python
+
+We talk a lot about notebooks, while we may call them ipython Notebooks, these work the same as the Jupyter notebooks that came installed with Conda. Unless you are a console guru, we suggest you go to your applications list (start button, home screen, whichever) and under the Anaconda3 collection, you will see:
+
+* Anaconda Navigator
+* iPython
+* Jupyter Notebook
+* Spyder
+* And some other things
+
+Click Jupyter Notebook, and don't look back. Your windows command prompt also now has a `conda` command which you can use to do various things, and if you enter `jupyter notebook` into this terminal, it will do the same thing as clicking the application.
+
+#### Installing Libraries
+
+To install a library which is not available in the default anaconda installation, you can attempt to use the navigator to add packages using the _Environments_ tab. This, however, is not always functional, and you might want to use a terminal and the commands shown later in the terminal commands section of this guide.
+
+### Mac Installation
+
+The same steps apply for mac users:
+
+1. Visit https://www.continuum.io/downloads
+2. Download the Python 3.5 Anaconda Graphical installer (you will need >360mb of free disk space for this)
+3. Open the installer, and install (just for you unless you are an admin), mostly just click next.
+
+
+Once downloaded to your mac, you will only see one new icon, possibly installed in your applications folder/exposé, or it might just be sitting on your desktop. For Macs, since specific application icons are not created, we recommend you use your terminal to open the notebook application. Important terminal commands are covered below. 
+
+You can also open that navigator.app application, and in it you will see "launch" buttons for jupyter notebooks, which are what you want.
+
+To install a library which is not available in the default anaconda installation, you can attempt to use the navigator to add packages using the _Environments_ tab. This, however, is not always functional, and you might want to use a terminal and the commands shown later in the terminal commands section of this guide.
+
+### Linux Installation
+
+If you are using linux for this tutorial, we are more or less going to assume you can find and install your own packages. If not we're here to help, since we spend a lot of time using these packages on Ubunutu.
 
 ### If you are comfortable in terminals, try this:
 
 Once you complete that download, 
+
 1. open a command prompt and verify your anaconda installation by typing conda info. If the current version comes up, you're good to go. 2. Now we can set up a clean working environment! Simply type conda create -n apiworkshop anaconda to create a new virtual environment that installs all of the common python libraries. 
 3. Once that process is completed, activate this environment by typing source activate apiworkshop. 
 4. Now, run conda install -c scitools cartopy fulfill the course requirements. Lastly, navigate to your git clone of the workshop repo, and type ipython notebook. Your notebooks should be good to go!
@@ -31,38 +76,16 @@ Once you complete that download,
 Cool, so what are these Jupyter/iPython notebooks anyway?
 Simply put, they are interactive, shareable notebooks containing live code and visualizations. These notebooks are perfect for teaching, as they allow us to add markup and visuals right in line with our code. You're viewing all of this in a Jupyter notebook!
 The notebook consists of cells which contain code or markdown. These cells are ran when you press play on the top menu. Like the python interpreter, these cells are executed line by line, so always run cells in order from top to bottom.
-Questions? Problems?
-Before the conference: shoot Josh an e-mail at joshua.m.clark@utah.edu or call 502-295-8895.
-Before the workshop: We'll be setting up the workshop at 7am on Monday. Stop by early and we'll work on getting you set up with the course requirements.
+
+### Questions? Problems?
+
+* Before the conference: shoot Josh an e-mail at joshua.m.clark@utah.edu or call 502-295-8895.
+* Before the workshop: We'll be setting up the workshop at 7am on Monday. Stop by early and we'll work on getting you set up with the course requirements.
 
 #Let's get things installed
 
 We are just going to quickly go through how we expect you to install and use today's Python applications.
 
-## Installation on Windows
-
-We are going to use the Anaconda suite for today's workshop, and we are going to use the Python3.5 version of that suite. If you have 2.7, that is great, but some of the functions we are going to use don't exist in Python 2.7. For windows, installing the 3.5 anaconda is as simple as:
-
-1. Visit https://www.continuum.io/downloads
-2. Download the Python 3.5 anaconda GUI installer
-3. Open the installer, and install (just for you unless you are an admin), mostly just click next.
-
-### To use this python
-
-We talk a lot about notebooks, while we may call them ipython Notebooks, these work the same as the Jupyter notebooks that came installed with conda. Unless you are a console guru, we suggest you go to your applicatios list (start button, home screen, whichever) and under the Anaconda3 collection, you will see:
-
-* Anaconda Navigator
-* iPython
-* Jupyter Notebook
-* Anaconda Prompt
-* Spyder
-* And some other things
-
-Each of these will do awesome things for you, but for this exercise we are going to only be using the notebooks. Feel free to double click the Jupyter notebook application, and you will see your favorite web browser open up to a folder listing. 
-
-## For Macs
-
-We still recommend downloading the graphical downloader for macs, though more comfortable users can use services like homebrew
 
 
 
