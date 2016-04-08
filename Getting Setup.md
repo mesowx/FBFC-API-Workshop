@@ -16,7 +16,9 @@ In order to get the most out of this course, we've tried to use modern libraries
 
 * Python 3.4/3.5
 * A web browser
-* The following python libraries: IPython or jupyter notebooks, CartoPy, Bokeh, Matplotlib and their dependencies. All other libraries should be built-in to your python installation
+* The following python libraries: IPython or jupyter notebooks, CartoPy*, Bokeh, Matplotlib and their dependencies. All other libraries should be built-in to your python installation
+
+_* CartoPy does not come with Anaconda, and can be tricky to install. For now, if you want you can try a couple of our suggestions below, but we are not likely to use our CartoPy-requiring example_
 
 ## Python Notebooks
 
@@ -93,24 +95,26 @@ While we don't want you to have to use the terminal for anything here, sometimes
 * `jupyter notebook` will open up your notebook session if you can't or don't want to find the icon for that application
 * `ipython` will open a terminal-based interactive python environment
 
+### Installing CartoPy
+
+One very exciting library out there is CartoPy, which lets you create exciting maps and geo-visualizations. Unfortunately CartoPy is a bit tricky to install. In some environments these commands work, and in others they don't. To try to install cartoPy, in a terminlal, enter:
+`conda install -c scitools cartopy`
+
+If that spews lots of unhappy things, you are probably not in luck. You can try `pip install cartopy` or `easy_install cartopy` but, they are not likely to work. If you can't get it to install on your machine, don't worry. 
+
+
 ### Some more advanced terminal options
 
 You can improve your python experience by creating a virtual environment that you run our exercises in. Here is a set of commands you could use to do so. 
 
 1. open a command prompt and verify your anaconda installation by typing conda info. If the current version comes up, you're good to go. 2. Now we can set up a clean working environment! Simply type conda create -n apiworkshop anaconda to create a new virtual environment that installs all of the common python libraries. 
 3. Once that process is completed, activate this environment by typing source activate apiworkshop. 
-4. Now, run conda install -c scitools cartopy fulfill the course requirements. Lastly, navigate to your git clone of the workshop repo, and type ipython notebook. Your notebooks should be good to go!
 
 
 ### Questions? Problems?
 
 * Before the conference: shoot Josh an e-mail at joshua.m.clark@utah.edu or call 502-295-8895.
 * Before the workshop: We'll be setting up the workshop at 7am on Monday. Stop by early and we'll work on getting you set up with the course requirements.
-
-#Let's get things installed
-
-We are just going to quickly go through how we expect you to install and use today's Python applications.
-
 
 
 
