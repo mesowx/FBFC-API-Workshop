@@ -16,8 +16,24 @@ In order to get the most out of this course, we've tried to use modern libraries
 
 * Python 3.4/3.5
 * A web browser
-* The following python libraries: IPython, CartoPy, Bokeh, Matplotlib and their dependencies. All other libraries should be built-in to your python installation
+* The following python libraries: IPython or jupyter notebooks, CartoPy, Bokeh, Matplotlib and their dependencies. All other libraries should be built-in to your python installation
 
+## Python Notebooks
+
+As we said above, we are going to use interactive "notebooks" as the main way to play with and build applications using our API.
+
+##### What are these Jupyter/iPython notebooks anyway?
+Simply put, they are interactive, shareable notebooks containing live code and visualizations. These notebooks are perfect for teaching, as they allow us to add markup and visuals right in line with our code. You're viewing all of this in a Jupyter notebook!
+The notebook consists of cells which contain code or markdown. These cells are ran when you press play on the top menu. Like the python interpreter, these cells are executed line by line, so always run cells in order from top to bottom.
+
+When you open a notebook your computer will open a terminal (or keep the terminal open) and then create a tab on your default web browser. Don't worry, this is all perfectly normal. 
+
+### Getting our Notebooks
+
+Our notebooks are located on this github account. If you have git and are familiar, we encourage you to create a fork of this respository in your own account, and clone that to your machine. If this sounds like jibberish to you, no worries, simply download the git repository as a zip file (if you can unzip them, there is a button on the repository home page) or manually download raw versions of each of the ipynb exercise files, and then navigate to where you put them in your Jupyter Notebook.
+
+
+# Installation Guide
 
 The best way to satisfy the course requirements is to install the Anaconda package/environment manager at https://www.continuum.io/downloads.
 
@@ -42,13 +58,13 @@ We talk a lot about notebooks, while we may call them ipython Notebooks, these w
 
 Click Jupyter Notebook, and don't look back. Your windows command prompt also now has a `conda` command which you can use to do various things, and if you enter `jupyter notebook` into this terminal, it will do the same thing as clicking the application.
 
-#### Installing Libraries
+#### Adding Missing Libraries
 
-To install a library which is not available in the default anaconda installation, you can attempt to use the navigator to add packages using the _Environments_ tab. This, however, is not always functional, and you might want to use a terminal and the commands shown later in the terminal commands section of this guide.
+Anaconda has a lot, but there are some things it does not have. To install a library which is not available in the default anaconda installation, you can attempt to use the navigator to add packages using the _Environments_ tab. This, however, is not always functional, and you might want to use a terminal and the commands shown later in the terminal commands section of this guide.
 
-### Mac Installation
+### Installing Conda on a Mac
 
-The same steps apply for mac users:
+The same steps for windows users apply for mac users:
 
 1. Visit https://www.continuum.io/downloads
 2. Download the Python 3.5 Anaconda Graphical installer (you will need >360mb of free disk space for this)
@@ -59,23 +75,32 @@ Once downloaded to your mac, you will only see one new icon, possibly installed 
 
 You can also open that navigator.app application, and in it you will see "launch" buttons for jupyter notebooks, which are what you want.
 
-To install a library which is not available in the default anaconda installation, you can attempt to use the navigator to add packages using the _Environments_ tab. This, however, is not always functional, and you might want to use a terminal and the commands shown later in the terminal commands section of this guide.
+#### Adding Missing Libraries
+
+Anaconda has a lot, but there are some things it does not have. To install a library which is not available in the default anaconda installation, you can attempt to use the navigator to add packages using the _Environments_ tab. This, however, is not always functional, and you might want to use a terminal and the commands shown later in the terminal commands section of this guide.
+
 
 ### Linux Installation
 
-If you are using linux for this tutorial, we are more or less going to assume you can find and install your own packages. If not we're here to help, since we spend a lot of time using these packages on Ubunutu.
+If you are using linux for this tutorial, we are more or less going to assume you can find and install your own packages. If not we're here to help, since we spend a lot of time using these packages on Ubuntu.
 
-### If you are comfortable in terminals, try this:
+## Terminal Commands
 
-Once you complete that download, 
+While we don't want you to have to use the terminal for anything here, sometimes it is an easier way to get things set up. Fortunately, conda gives users the same commands whether they are using Windows, OSX or Linux. Some valuable commands are:
+
+* `conda install [package]` This can be used to install something that is missing
+* `conda install -c [source] [package]` This command will install something and tells anaconda where to look for it
+* `jupyter notebook` will open up your notebook session if you can't or don't want to find the icon for that application
+* `ipython` will open a terminal-based interactive python environment
+
+### Some more advanced terminal options
+
+You can improve your python experience by creating a virtual environment that you run our exercises in. Here is a set of commands you could use to do so. 
 
 1. open a command prompt and verify your anaconda installation by typing conda info. If the current version comes up, you're good to go. 2. Now we can set up a clean working environment! Simply type conda create -n apiworkshop anaconda to create a new virtual environment that installs all of the common python libraries. 
 3. Once that process is completed, activate this environment by typing source activate apiworkshop. 
 4. Now, run conda install -c scitools cartopy fulfill the course requirements. Lastly, navigate to your git clone of the workshop repo, and type ipython notebook. Your notebooks should be good to go!
-5. 
-Cool, so what are these Jupyter/iPython notebooks anyway?
-Simply put, they are interactive, shareable notebooks containing live code and visualizations. These notebooks are perfect for teaching, as they allow us to add markup and visuals right in line with our code. You're viewing all of this in a Jupyter notebook!
-The notebook consists of cells which contain code or markdown. These cells are ran when you press play on the top menu. Like the python interpreter, these cells are executed line by line, so always run cells in order from top to bottom.
+
 
 ### Questions? Problems?
 
