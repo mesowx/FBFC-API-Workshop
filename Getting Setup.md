@@ -32,7 +32,7 @@ When you open a notebook your computer will open a terminal (or keep the termina
 
 ### Getting our Notebooks
 
-Our notebooks are located on this github account. If you have git and are familiar, we encourage you to create a fork of this respository in your own account, and clone that to your machine. If this sounds like jibberish to you, no worries, simply download the git repository as a zip file (if you can unzip them, there is a button on the repository home page) or manually download raw versions of each of the ipynb exercise files, and then navigate to where you put them in your Jupyter Notebook.
+Our notebooks are located on this github account. If you have git and are familiar, we encourage you to create a fork of this respository in your own account, and clone that to your machine. If this sounds like jibberish to you, no worries, simply download the git repository as a [zip file](https://github.com/mesowx/FBFC-API-Workshop/archive/master.zip) (if you can unzip them) or manually download raw versions of each of the ipynb exercise files, and then navigate to where you put them in your Jupyter Notebook.
 
 
 # Installation Guide
