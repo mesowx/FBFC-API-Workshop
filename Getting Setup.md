@@ -16,7 +16,9 @@ In order to get the most out of this course, we've tried to use modern libraries
 
 * Python 3.4/3.5
 * A web browser
+* A SynopticLabs API Key ([we have a guide prepared](https://github.com/mesowx/FBFC-API-Workshop/blob/master/Generating%20Keys.ipynb))
 * The following python libraries: IPython or jupyter notebooks, CartoPy*, Bokeh, Matplotlib and their dependencies. All other libraries should be built-in to your python installation
+   * If you have trouble installing these Python libraries (instructions below) we have a backup resource you can use.
 
 _* CartoPy does not come with Anaconda, and can be tricky to install. For now, if you want you can try a couple of our suggestions below, but we are not likely to use our CartoPy-requiring example_
 
@@ -97,7 +99,7 @@ While we don't want you to have to use the terminal for anything here, sometimes
 
 ### Installing CartoPy
 
-One very exciting library out there is CartoPy, which lets you create exciting maps and geo-visualizations. Unfortunately CartoPy is a bit tricky to install. In some environments these commands work, and in others they don't. To try to install cartoPy, in a terminlal, enter:
+One very exciting library out there is CartoPy, which lets you create powerful maps and geo-visualizations. Unfortunately CartoPy is a bit tricky to install. In some environments these commands work, and in others they don't. To try to install cartoPy, in a terminlal, enter:
 `conda install -c scitools cartopy`
 
 If that spews lots of unhappy things, you are probably not in luck. You can try `pip install cartopy` or `easy_install cartopy` but, they are not likely to work. If you can't get it to install on your machine, don't worry. 
