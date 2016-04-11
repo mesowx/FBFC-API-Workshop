@@ -24,7 +24,7 @@ We'll update the schedule with links to slides after the workshop.
 | 0930-0940 | Break                                                                                                                                                  |               |
 | 0940-0950 | Generating keys                                                                                                                                        | [Keys and tokens]              |
 | 0950-1010 | Web Resources and the Explorer                                                                                                                         |               |
-| 1010-1030 | Response Formats and Output Types                                                                                                                      |               |
+| 1010-1030 | Response Formats and Output Types                                                                                                                      | [Response Types], [Output Types], [API Hello World] |
 | 1030-1040 | Break                                                                                                                                                  |               |
 | 1040-1050 | Ex. 1 Creating simple charts of station data | [Charts Example] |
 | 1050-1105 | Ex. 2 Map creation for conditions near fire  | [Map Example] |
@@ -41,6 +41,9 @@ We'll update the schedule with links to slides after the workshop.
 [MesoWest/SynopticLabs MesoNet Application Programming Interface]: http://synopticlabs.org/api/
 [here]: http://synopticlabs.org/api/signup/
 [Keys and Tokens]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Generating%20Keys.ipynb
+[Response Types]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Response_formats.ipynb
+[Output Types]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Output_types.ipynb
+[API Hello World]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex0_Hello_world.ipynb
 [Charts Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex1_Basic_charts.ipynb
 [Map Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex2_Fire_weather_map.ipynb
 [Alert Bot]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex3_Email_alerts.ipynb
