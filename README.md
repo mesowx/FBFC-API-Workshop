@@ -34,7 +34,7 @@ We'll update the schedule with links to any slides after the workshop.
 | 1120-1135 | Exercise                                                                                                                                               |               |
 | 1135-1145 | Break                                                                                                                                                  |               |
 | 1145-1205 | Ex. 4 Mini-ROMAN: A web-based tabular display of RAWS stations | [JS Example]|
-| 1205-1220 | Ex. 5 Mapping precip data across the US                                                 |               |
+| 1205-1220 | Ex. 5 Mapping precip data across Colorado                                                 | [Precip Map]              |
 | 1220-1230 | Conclusions                                                                                                                                            |               |
 
 
@@ -50,3 +50,4 @@ We'll update the schedule with links to any slides after the workshop.
 [Map Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex2_Fire_weather_map.ipynb
 [Alert Bot]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex3_Email_alerts.ipynb
 [JS Example]: https://jsfiddle.net/joeyoun9/qsv3680f/
+[Precip Map]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex5_Mapping_precip_data.ipynb
