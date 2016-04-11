@@ -5,14 +5,16 @@
 Hi! Thanks for [signing up] for our workshop and the 5th Fire Behavior and Fuels Conference! After this four hour tutorial, you'll be able to efficiently use the [MesoWest/SynopticLabs MesoNet Application Programming Interface] (API) to obtain millions of weather observations from over 43,000 observing stations across North America. Use this data to drive your applications, research, or student activities!
 
 #### First things first:
-You'll need to view the workshop instructions here: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Workshop_instructions.ipynb and request an API key/token before making requests for our data. Please click **[here]** to access the API key sign up page. This process is immediate and shouldn't take longer than a few minutes. When you receive an email with your key, make sure to follow the instructions to generate a token. **Bring this key/token with you to the workshop!**
+You'll need to request an API key/token before making requests for our data. Please click **[here]** to access the API key sign up page. This process is immediate and shouldn't take longer than a few minutes. When you receive an email with your key, make sure to follow the instructions to generate a token. **Bring this key/token with you to the workshop!**
+
+We will be providing the course materials via Jupyter Hub, which requires no installation of software on your part. However, we intend to shut down that server after the conference, so you may want to install the software on your own computer. The instructions for that are found at https://github.com/mesowx/FBFC-API-Workshop/blob/master/Getting%20Setup.md. We are able to help with the installation process before and after the workshop as well. 
 
 #### What to bring:
-**Just a laptop!** Please reference the workshop instructions above to make sure you have the required software installed.
+**Just a laptop!** Access to a web browser is all that is required.
 
 #### Course Schedule:
 
-We'll update the schedule with links to slides after the workshop.
+We'll update the schedule with links to any slides after the workshop.
 
 | Time      | Topic                                                                                                                                                  | Relevant Docs |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
@@ -31,7 +33,7 @@ We'll update the schedule with links to slides after the workshop.
 | 1105-1120 | Ex. 3 An email alert bot for changing fire weather conditions | [Alert Bot] |
 | 1120-1135 | Exercise                                                                                                                                               |               |
 | 1135-1145 | Break                                                                                                                                                  |               |
-| 1145-1205 | Ex. 4 Mini-ROMAN: A web-based tabular display of RAWS stations | |
+| 1145-1205 | Ex. 4 Mini-ROMAN: A web-based tabular display of RAWS stations | [JS Example]|
 | 1205-1220 | Ex. 5 Mapping precip data across the US                                                 |               |
 | 1220-1230 | Conclusions                                                                                                                                            |               |
 
@@ -47,3 +49,4 @@ We'll update the schedule with links to slides after the workshop.
 [Charts Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex1_Basic_charts.ipynb
 [Map Example]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex2_Fire_weather_map.ipynb
 [Alert Bot]: https://github.com/mesowx/FBFC-API-Workshop/blob/master/Ex3_Email_alerts.ipynb
+[JS Example]: https://jsfiddle.net/joeyoun9/qsv3680f/
